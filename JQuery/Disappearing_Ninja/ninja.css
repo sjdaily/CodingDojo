@@ -1,0 +1,26 @@
+body {
+	width: 970px;
+	margin:0px auto;
+	margin-top:15px;
+	background-color: #7792A7;
+}
+
+img {
+	display: inline-block;
+	height:150px;
+	width: 200px;
+	margin:5px;
+	border:2px dotted #2E5370;
+}
+
+button {
+	display:block;
+	width:150px;
+	height:35px;
+	margin:15px 10px 10px 50px;
+	font-size: 16px;
+	font-family:fantasy;
+	background-color: #276A67;
+	color:white;
+	border: 3px solid #2E5370;
+}
