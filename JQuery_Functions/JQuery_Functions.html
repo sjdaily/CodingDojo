@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JQuery functions</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="JQuery_Functions.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$('#addClass').click(function(){
+					$('p').addClass('red');
+				});
+
+				$('#slideToggle').click(function(){
+					$('#bowser').slideToggle('slow');
+				});
+
+				$('#append').click(function(){
+					$('#appendme').append('Roar!');
+				});
+
+				$('#attr').click(function(){
+					$('#attribute').attr('src','https://res.cloudinary.com/keep/image/fetch/t_post_large,f_auto/https://s3.amazonaws.com/production-ol-images/3ec9f62628a0b5c1e4bb724265957884.jpg');
+				});
+
+				$('#before').click(function(){
+					$('#before_me').before("This comes first!");
+				});
+
+				$('#html').click(function(){
+					$('#html_p').html("I'm changed!");
+				});
+				
+				$('#text').click(function() {
+					$('#text_p').text('Now this paragraph has some content!');
+				});
+
+				$('#val').click(function(){
+					$('input').val("You found the value");
+				});
+
+				$('#toggle').click(function(){
+					$('#chain_chomp').toggle(400);
+				});
+
+				$('#hide').click(function(){
+					$('#hide_p').hide(300);
+				});
+
+				$('#show').click(function(){
+					$('#show_me').show("slow");
+				});
+
+				$('#slideDown').click(function(){
+					$('#link').slideDown(400);
+				});
+
+				$('#slideUp').click(function(){
+					$('#ganon').slideUp(600);
+				});
+
+				$('#fadeOut').click(function(){
+					$('#time').fadeOut("slow");
+				});
+
+				$('#fadeIn').click(function(){
+					$('#assassin').fadeIn(400);
+				});
+
+				$('#focus').click(function(){
+					$('#blur_me').focus();
+				});
+
+				$('#click').click(function(){
+					$('#lotr').fadeIn(500);
+				});
+
+			});
+		</script>
+	</head>
+	<body>
+		<button id="addClass">Click Me!</button>
+		<h1>AddClass</h1>
+		<p>Click the button to add class 'red' to ALL paragraphs on this page</p>
+		<hr>
+
+		<button id="slideToggle">Click Me!</button>
+		<h1>SlideToggle</h1>
+		<img src='http://img3.wikia.nocookie.net/__cb20131030220015/villains/images/7/71/Bowser.png' alt='bowser' id="bowser" style="height:500px">
+		<p>Click the button and see what happens to Bowser!</p>
+		<hr>
+
+		<button id="append">Click Me!</button>
+		<h1>Append</h1>
+		<p id="appendme">Click the button to append a new string to the end of this one!</p>
+		<hr>
+
+		<button id="attr">Click Me!</button>
+		<h1>Attribute (Attr)</h1> 
+		<img id="attribute" src="http://i.dailymail.co.uk/i/pix/2013/05/15/article-2324997-19C96C08000005DC-837_634x874.jpg" alt="cat-lion" style="height:500px">
+		<p>Click the button to change the src attribute of this picture</p>
+		<hr>
+
+		<button id="before">Click Me!</button>
+		<h1>Before</h1>
+		<p id="before_me">Click the button to insert a string before this paragraph</p>
+		<hr>
+
+		<button id="html">Click Me!</button>
+		<h1>Html</h1>
+		<p id="html_p">Click the button to replace the html content of this paragraph</p>
+		<hr>
+
+		<button id="text">Click Me!</button>
+		<h1>Text</h1>
+		<h2>Click the button to add text to an empty paragraph</h2>
+		<p id="text_p"> </p> 
+		<hr>
+
+		<button id="val">Click Me!</button>
+		<h1>Val</h1>
+		<p>Click the button to find the value of the input</p>
+		<input type="text" value="Find the value!">
+		<hr>
+
+		<button id="toggle">Click Me!</button>
+		<h1>Toggle</h1>
+		<h2>Click the button to help Yoshi!</h2>
+		<img src="http://vignette1.wikia.nocookie.net/fantendo/images/7/7e/ChainChompMF.png/revision/latest?cb=20120915120110" id="chain_chomp" alt="chasing_chomp" style="width:400px">
+		<img src="http://img1.wikia.nocookie.net/__cb20101202015047/mario/es/images/4/48/Yoshi.png" alt="yoshi_running" style="height:500px">
+		<hr>
+
+		<button id="hide">Click Me!</button>
+		<h1>Hide</h1>
+		<h2>Click the button to hide the text below:</h2>
+		<p id="hide_p">Now you see me...</p>
+		<hr>
+
+		<button id="show">Click Me!</button>
+		<h1>Show</h1>
+		<h2>Click the button to display the hidden text</h2>
+		<p id="show_me" style="display:none">You can see me again!</p>
+		<hr>
+
+		<button id="slideDown">Click Me!</button>
+		<h1>SlideDown</h1>
+		<h2>See what happens when you click!</h2>
+		<img src="http://static.comicvine.com/uploads/original/11117/111171839/3909140-link.jpg" id="link" alt="link_sword" style="display:none; height:500px">
+		<hr>
+
+		<button id="slideUp">Click Me!</button>
+		<h1>SlideUp</h1>
+		<h2>Click the button to help Link</h2>
+		<img src="http://vignette2.wikia.nocookie.net/zelda/images/e/e9/Ganondorf_(Hyrule_Warriors).png/revision/latest?cb=20140806004719" id="ganon" alt="ganondorf" style="height:400px">
+		<hr>
+
+		<button id="fadeOut">Click Me!</button>
+		<h1>FadeOut</h1>
+		<p>Click to make time fade away</p>
+		<img src="http://i50.tinypic.com/2u75e9w.jpg" id="time" alt="clock" style="width:500px">
+		<hr>
+
+		<button id="fadeIn">Click Me!</button>
+		<h1>FadeIn</h1>
+		<p>Click to make an assassin appear!</p>
+		<img src="http://img01.deviantart.net/7115/i/2013/116/9/9/assassin_s_creed_disintegration_effect_by_pho3nix93-d634elh.jpg" id="assassin" alt="assassin" style="display:none; height:500px">
+		<hr>
+
+		<button id="focus">Click Me!</button>
+		<h1>Focus</h1>
+		<h2>Click to see which element has focus</h2>
+		<input type="text" id="blur_me" value="Click to focus on this box">
+		<hr>
+
+		<button id="click">Click Me!</button>
+		<h1>Click</h1>
+		<p>We've been using .click the whole time!</p>
+		<p>But please click the button one last time...</p>
+		<img src="http://images-cdn.9gag.com/photo/anBb8MV_700b.jpg" id="lotr" alt="frodo" style="display:none; height:600px">
+		<hr>
+
+	</body>
+</html>
