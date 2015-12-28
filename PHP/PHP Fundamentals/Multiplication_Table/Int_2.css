@@ -1,0 +1,29 @@
+table {
+  border: 1px solid gray;
+  border-collapse:collapse;
+  margin:0px;
+}
+
+tr {
+  margin:0px;
+}
+
+td {
+  margin:0px;
+  border:1px solid gray;
+  padding:5px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 900;
+  font-size:18px;
+}
+
+.odds {
+  background-color: white;
+}
+
+.even {
+  background-color: #C0C0C0;
+}

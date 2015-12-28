@@ -1,0 +1,27 @@
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border:1px solid gray;
+	padding: 10px;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.user_count {
+	font-weight:bold;
+}
+
+.topbar td {
+	font-weight:bold;
+}
+
+.topbar span {
+	font-weight:normal;
+}	
+
+.fives {
+	background-color:black;
+	color:white;
+}

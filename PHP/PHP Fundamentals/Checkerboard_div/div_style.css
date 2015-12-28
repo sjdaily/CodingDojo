@@ -1,0 +1,33 @@
+* {
+	margin:0px;
+}
+
+.container {
+	display: table;
+	background-color: blue;
+	width: 250px;
+	border: 1px solid black;
+}
+
+div {
+	display: table-cell;
+}
+
+.row {
+	display: table-row;
+}
+
+.red {
+	background-color: red;
+	margin: 0px;	
+	width:25px;
+	height:25px;
+}
+
+.black {
+	background-color: black;
+	margin: 0px;
+	width:25px;
+	height:25px;
+}
+
