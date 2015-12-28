@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cat to Ninja</title>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#cat0').click(function(){
+				$(this).attr("src", "ninja4.png");
+			});
+
+			$('#cat1').click(function(){
+				$(this).attr("src","ninja0.png");
+			});
+
+			$('#cat2').click(function(){
+				$(this).attr("src","cat3.png");
+			});
+
+			$('#ninja2').click(function(){
+				$(this).attr("src","cat4.png");
+			});
+
+			$('#ninja3').click(function(){
+				$(this).attr("src","ninja1.png");
+			});
+		});
+	</script>
+
+	<style>
+		body {
+			width:300px;
+			margin:0px auto;
+			margin-top:20px;
+		}
+		h1 {
+			color: navy;
+			font-family: tahoma;
+		}
+	</style>
+</head>
+<body>
+	<img src="cat0.png" alt="cat_0" id="cat0" />
+	<img src="cat1.png" alt="cat_1" id="cat1" />
+	<img src="cat2.png" alt="cat_2" id="cat2" />
+	<img src="ninja2.png" alt="ninja_2" id="ninja2" />
+	<img src="ninja3.png" alt="ninja_3" id="ninja3" />
+	<h1 data-date-changed="Sept 14 2:52pm">Cat to Ninja!</h1>
+</body>
+</html>
