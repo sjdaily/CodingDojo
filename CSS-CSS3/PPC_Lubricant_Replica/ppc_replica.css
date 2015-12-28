@@ -1,0 +1,256 @@
+body {
+	width: 970px;
+	margin:0px auto;
+}
+
+#topbar {
+	height:60px;
+	background-color:#EBEBEB;
+	margin: 0px 0px 0px 0px;
+	width: 970px;
+	display:inline-block;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+
+#topbar img {
+	display:inline-block;	
+	padding-left:25px;
+	margin-bottom:0px;
+}
+
+#topbar h1 {
+	display:inline-block;
+	font-size:18px;
+	font-family:sans-serif;
+	position:relative;
+	left: 250px;
+	bottom: 30px;
+	margin-bottom:0px;
+}
+
+#navbar {
+	height: 40px;
+	width: 970px;
+	background: linear-gradient(#EDF1F3,#D9DFE4);
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding:0px;
+	display:inline-block;
+}
+
+#navbar p {
+	display:inline-block;
+	font-family:sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#655F59;
+	padding: 10px 11px 10px 11px;
+	border-top: 1.5px solid #B5B7B7;
+	border-right: 1.5px solid #B5B7B7;
+	border-bottom: 1.5px solid #EBEBEB;
+	border-left: 1.5px solid #EBEBEB;
+	margin-right: 0px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	vertical-align: top;
+}
+
+#space {
+	width: 20px;
+	height: 14px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:0px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#space-2 {
+	vertical-align:top;
+	display:inline-block;
+	width:130px;
+	height: 14px;
+	margin-right:0px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#graybar {
+	width:970px;
+	display:inline-block;
+	height:30px;
+	background-color: #EBEBEB;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#main-top {
+	background-color: #030303;
+	width: 970px;
+	height:285px;
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:0px;
+}
+
+#main-top img {
+	border: 5px solid white;
+	margin: 15px 15px 15px 40px;
+	display:inline-block;
+}
+
+#main-top h2 {
+	font-family:sans-serif;
+	background:linear-gradient(#F9D14A, #FAC702);
+	width:489px;
+	font-size:12px;
+	display:inline-block;
+	height:20px;
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom:3px;
+	margin-bottom:0px;
+	position:relative;
+	bottom: 262px;
+}
+
+#main-top h3 {
+	background: linear-gradient(to right, #676766, #373737);
+	color:white;
+	width: 450px;
+	padding: 10px 30px 0px 20px;
+	margin-bottom:0px;
+	margin-top:0px;
+	font-family:sans-serif;
+	font-size:13px;
+	padding-top:15px;
+	padding-bottom:10px;
+	position:relative;
+	left: 445px;
+	bottom:260px;
+}
+
+#main-top p {
+	background: linear-gradient(to right, #676766, #373737);
+	color:white;
+	font-size:11px;
+	font-family:sans-serif;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:15px;
+	padding-right:40px;
+	padding-left:20px;
+	width: 440px;
+	position:relative;
+	bottom:260px;
+	left:445px;
+}
+
+#main-top #p2 {
+	padding-bottom: 49px;
+}
+
+#main-top span {
+	font-weight:bold;
+}
+
+#main-bar {
+	background-color: #030303;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	height:30px;
+}
+
+#main-bar img {
+	width: 50px;
+	height:15px;
+	display:inline-block;
+	border-radius: 5px;
+	margin-left:50px;
+	margin-right:10px;
+	padding-bottom:0px;
+}
+
+#main-bar p {
+	display:inline-block;
+	font-size: 11px;
+	font-family:sans-serif;
+	color: #919752;
+	margin-left: 10px;
+	padding-bottom:10px;
+	position:relative;
+	bottom:4px;
+}
+
+#main-bottom {
+	background-color:#030303;
+	width: 970px;
+	margin-top:0px;
+	display:inline-block;
+}
+
+#main-bottom div {
+	display:inline-block;
+	width: 210px;
+	height:240px;
+	font-family:sans-serif;
+	border:1.5px solid black;
+	margin-left: 7px;
+	margin-right:8px;
+	vertical-align:top;
+	margin-bottom:15px;
+}
+
+#main-bottom h2 {
+	background:linear-gradient(#F8D04E ,#f9cb39);
+	font-size:11px;
+	padding: 5px 0px 5px 10px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#main-bottom img {
+	width: 210px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#main-bottom p {
+	font-size:10px;
+	background:linear-gradient(#FFFFFF,#FDF5E1);
+	padding: 10px 10px 10px 10px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#main-bottom #auto {
+	margin-left:40px;
+}
+
+#main-bottom #auto p {
+	padding-bottom:20px;
+}
+
+#main-bottom #comm p {
+	padding-bottom:20px;
+}
+
+#main-bottom button img {
+	width: 80px;
+	height:25px;
+	display:inline-block;
+	position:relative;
+	left:45px;
+}
+
+#main-bottom button {
+	width:210px;
+	margin-top:0px;
+	background-color:#FDF5E1;
+	border:none;
+	padding-bottom:10px;
+}
