@@ -1,0 +1,55 @@
+body {
+	width: 600px;
+	height: 500px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: 1px dotted blue;
+	padding:20px;
+	font-family:Helvetica;
+}
+
+div {
+	height: 150px;
+	width:200px;
+	border:5px solid black;
+	text-align: center;
+	background-color: red;
+	color:white;
+	font-size: 28px;
+	font-weight:bold;
+	padding: 40px 0px 40px 0px;
+	margin:0px auto;
+}
+
+h3 {
+	text-align: center;
+}
+
+#correct {
+	background-color: green;
+}
+
+form {
+	width: 100px;
+	height: 50px;
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 15px;
+}
+
+form input {
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 100px;
+	border:2px solid black;
+	padding:5px;
+}
+
+input[type="submit"] {
+	border: 2px solid black;
+	border-radius: 0px;
+	box-shadow: 4px 4px;
+	width: 80px;
+	position: relative;
+	left: 7px;
+}

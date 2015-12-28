@@ -1,0 +1,19 @@
+form {
+	width: 400px;
+	height: 250px;
+	border: 1px dashed navy;
+	margin: 0px auto;
+	margin-top: 10px;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+form input {
+	margin-bottom:10px;
+	margin-left:10px;
+	padding: 5px;
+}
+
+#file_upload, #clear {
+	height: 60px;
+}

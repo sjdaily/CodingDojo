@@ -1,0 +1,40 @@
+h2 {
+	text-decoration:underline;
+	font-size: 18px;
+}
+
+button {
+	background-color:blue;
+	color:white;
+	border: 1px solid black;
+	font-size:12px;
+}
+
+#submit {
+	background-color:blue;
+	color:white;
+	border: 1px solid black;
+}
+
+form {
+	padding: 10px;
+	margin:10px;
+	border:2px solid black;
+	width: 250px;
+}
+
+form input {
+	padding:5px;
+	margin:5px;
+}
+ 
+#comment {
+	padding:20px;
+}
+
+#submitted {
+	border:2px solid black;
+	width: 250px;
+	padding:10px;
+	text-align: left;
+}

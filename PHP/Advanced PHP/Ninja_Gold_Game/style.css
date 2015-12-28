@@ -1,0 +1,52 @@
+body {
+	width: 950px;
+	height: 600px;
+	font-family: sans-serif;
+	border: 2px dotted blue;
+}
+
+#boxes div {
+	border: 2px solid black;
+	width: 210px;
+	height: 200px;
+	display: inline-block;
+	margin:5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+input[type="submit"] {
+	height: 40px;
+	width: 120px;
+	font-size: 18px;
+	box-shadow: 4px 4px;
+	padding: 10px;
+}
+
+form {
+	vertical-align: bottom;
+	height: 40px;
+}
+
+p {
+	border:1px solid black;
+	width: 600px;
+	margin-left:30px;
+}
+
+#log {
+	border: 2px solid black;
+	width: 700px;
+	margin-left: 25px;
+	padding:10px;
+}
+
+#destroy {
+	margin-left: 25px;
+	margin-top: 20px;
+}
