@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover In/Out</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#cat1').hover(function(){
+				$(this).fadeOut('slow');
+				$(this).attr("src","http://www.lifewithdogs.tv/wp-content/uploads/2014/03/3.21.14-National-Puppy-Day5.jpg").fadeIn('slow');
+				}, function() {
+					$(this).attr("src","https://www.valleyvet.com/images/worming-your-kitten.png");
+			});
+
+			$('#cat2').hover(function(){
+				$(this).fadeOut('slow');
+				$(this).attr("src", "http://www.dallasvoice.com/wp-content/uploads/2015/03/puppy-2.jpg").fadeIn('slow');
+				}, function() {
+					$(this).attr("src","http://www.mhvc.net/images/kitten1.png");
+			});
+
+			$('#cat3').hover(function(){
+				$(this).fadeOut('slow');
+				$(this).attr("src","http://www.astro.cornell.edu/~derg/style/tiny_puppy_toy.jpg").fadeIn('slow');
+				}, function() {
+					$(this).attr("src","https://intelligentlyartificial.files.wordpress.com/2014/08/kitten1.jpg");
+			});
+
+			$('#cat4').hover(function(){
+				$(this).fadeOut('slow');
+				$(this).attr("src","https://s-media-cache-ak0.pinimg.com/236x/b7/df/71/b7df718141757a559498cdf15cbfec60.jpg").fadeIn('slow');
+				}, function() {
+					$(this).attr("src","http://img14.deviantart.net/d674/i/2013/147/c/e/kitten_png_by_lg_design-d66s97o.png");
+			});
+		});
+
+	</script>
+
+	<style type="text/css">
+		body {
+			margin:0px auto;
+			display: inline-block;
+		}
+		img {
+			width:250px;
+			height:250px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<img src="https://www.valleyvet.com/images/worming-your-kitten.png" alt="cat1" id="cat1">
+	<img src="http://www.mhvc.net/images/kitten1.png" alt="cat2" id="cat2">
+	<img src="https://intelligentlyartificial.files.wordpress.com/2014/08/kitten1.jpg" alt="cat3" id="cat3">
+	<img src="http://img14.deviantart.net/d674/i/2013/147/c/e/kitten_png_by_lg_design-d66s97o.png" alt="cat4" id="cat4">
+
+</body>
+</html>
